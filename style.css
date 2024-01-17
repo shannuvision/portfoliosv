@@ -1,0 +1,414 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-repeat: no-repeat;
+    background-position: relative;
+    background-size:auto; 
+
+
+}
+
+    
+
+
+nav{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    padding: 20px 5%;
+    justify-content: space-between;
+    background-color:none;
+    font-weight: bolder;
+    
+    z-index: 99;
+   
+    
+    
+}
+nav .heading{
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+}
+nav ul{
+    display:flex;
+    list-style: none;
+}
+nav ul li{
+    padding: 8px 15px;
+    border-radius: 10px;
+    transition: 0.4s ease-in-out;
+    position: relative;
+    top: -78px;
+}
+.navbar img{
+    right: 570px;
+    position: relative;
+    mix-blend-mode: normal;
+    top: -30px;
+}
+
+
+.navbar h2{
+    position: relative;
+    top: 10px;
+    right: 550px;
+    mix-blend-mode: normal;
+    
+}
+nav ul li a{
+    color:gray;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration:wavy;
+    mix-blend-mode: normal;
+
+}
+nav ul li :hover{
+  
+    color: rgba(235, 189, 72, 0.753);
+}
+nav .menu{
+    font-size: 30px;
+    font-weight: bolder;
+    cursor: pointer;
+    display: none;
+}
+@media screen and (max-width:600px){
+    nav.menu{
+        display: flex;
+    }
+    nav .navbar{
+        display: none;
+    }  
+}
+.navbar h2{
+    color:gray;
+    top: 19px;
+    font-family: 'rage';
+    letter-spacing: 2px;
+    font-weight: lighter;
+    font-size: 35px;
+    left: -530px;
+}
+.home-container h1{
+    font-family: times new roman;
+    color: white;
+    font-weight: bolder;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    letter-spacing: 6px;
+    word-spacing: 4px;
+    font-size: 50px;
+}
+.home-container h2{
+    color: rgba(250, 235, 215, 0.801);
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    font-size: 30px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+}
+.second{
+   background-image: url("gradient.jpg") ;
+   background-repeat:no-repeat;
+   background-size:auto;
+   width: 100%;
+   border-radius: none;
+   position: relative;
+   top: 590px;
+   height: 1610px;
+   
+   
+   
+  
+}
+.shannu img{
+   border-radius:  100% 0% 52% 48% / 29% 0% 100% 71% ;
+   border-color: blanchedalmond; 
+   border-style: solid;
+   border-block-color: rgba(235, 189, 72, 0.753);
+}
+.shannu p{
+    text-align: justify;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    width: 700px;
+    height: 50px;
+    position: absolute;
+    top: 155px;
+    right:105px;
+    color: rgba(250, 235, 215, 0.801);
+    font-size: 20px;
+    
+}
+.shannu h2{
+    text-align: justify;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    
+    position: absolute;
+    top: 75px;
+    right:375px;
+    color: white;
+    font-size: 45px;
+   
+}
+.shannu ul{
+  
+        display:list-item;
+        position: relative;
+        top: -330px;
+        right: -600px;
+        width: 600px;
+        font-size: 20px;
+        color:rgba(250, 235, 215, 0.801) ;
+        letter-spacing: 2px;
+        word-spacing:2px;
+        height: 100px;
+        
+}
+.shannu h3{
+    top: 270px;
+    position: absolute;
+    right:645px;
+    color: rgba(218, 212, 212, 0.781);
+    font-size: 30px;
+    text-align: justify;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+   
+}
+.con img{
+    position: absolute;
+    top: 768px;
+    right: 0px;
+    border-radius: 100% 0% 100% 0% / 0% 100% 0% 100% ;
+    border-block-color: rgb(54, 53, 53);
+    border-block-style: solid;
+    border-block-start-color: transparent;
+    border-block-end-style:ridge;
+    
+
+}
+.shabout ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+.shabout ul li {
+    
+    flex-direction: row;
+    transition: 0.4s ease-in-out;
+    position: relative;
+    justify-content: space-around;
+    top: 20px;
+    flex-wrap: wrap;
+    width: 300px;
+    margin: 20px;
+    text-align: center;
+    line-height: 19px;
+    align-items: baseline;
+    mix-blend-mode: normal; 
+    height: 100px;
+   
+     
+}
+.shabout ul li h4{
+    color: rgba(250, 235, 215, 0.801);
+    letter-spacing: 4px;
+    word-spacing: 3px;
+}
+.shabout h2{
+    color: white;
+    position: relative;
+    top: 25px;
+    text-align: center;
+    right: 170px;
+    font-size: 45px;
+    letter-spacing: 6px;
+    word-spacing: 3px;
+
+}
+.total {
+    background-image: url(gradient\ -\ Copy.jpg);
+    background-repeat:no-repeat;
+    background-size:auto;
+    width: 100%;
+    border-radius: none;
+    position: relative;
+    height: 1200px;
+    top: 38px;
+}
+.experience ul{
+  
+    display:list-item;
+    position: relative;
+    top: -120px;
+    right: -600px;
+    width: 600px;
+    font-size: 20px;
+    color:rgba(250, 235, 215, 0.801) ;
+    letter-spacing: 2px;
+    word-spacing:2px;
+}
+.experience h2{
+    text-align: justify;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    
+    position: absolute;
+    top: 80px;
+    right:375px;
+    color: white;
+    font-size: 45px;
+
+}
+.experience img{
+    top: 200px;
+    left: 70px;
+    position: relative;
+
+}
+.pro img{
+    position: relative;
+    left:780px;
+    top: 100px;
+
+}
+.pro h2{
+    text-align: justify;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    
+    position: absolute;
+    top: 680px;
+    right:925px;
+    color: white;
+    font-size: 45px;
+
+}
+.pro ul{
+    display:list-item;
+    position: relative;
+    top: -120px;
+    right: -130px;
+    width: 600px;
+    font-size: 20px;
+    color:rgba(250, 235, 215, 0.801) ;
+    letter-spacing: 2px;
+    word-spacing:2px;
+}
+.Contact {
+    
+    width: 100%;
+    height: 370px;
+    display: flex;
+    padding: 0px 5%;
+    justify-content: space-between;
+    background-color:black;
+    font-weight: bolder;
+    opacity: 0.7;
+    z-index: 99;
+    padding-bottom: 0%;
+    top: 1565px;
+    position: relative;
+    mix-blend-mode: normal
+    
+   
+
+
+}
+.forcontact h3{
+   color:white;
+   letter-spacing: 2px;
+   word-spacing: 2px;
+   top: 180px;
+   position: relative;
+   mix-blend-mode: normal;
+   
+}
+.Logo h4{
+    left: 480px;
+    position: relative;
+    top: 80px;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    color: white;
+    
+}
+.forcontact p{
+    color: rgba(218, 174, 65, 0.562);
+    top: 210px;
+    position: relative;
+    text-align: justify;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    mix-blend-mode: normal;
+}
+
+.Logo img{
+    position: relative;
+    top: 0px;
+    left: 780px;
+   justify-content: space-between;
+   padding: 3rem;
+   mix-blend-mode: normal;
+   
+}
+
+.input {
+    top: -80px;
+    position: relative;
+    left: 400px;    
+}
+.input label{
+    color: goldenrod;
+    font-size: 30px;
+    font-weight: bolder;
+    top: 83px;
+    position: relative;
+    right: 100px;
+    mix-blend-mode: normal;
+}
+.input input {
+    color:black;
+    box-sizing: 100px;
+    border-color: #222121;
+    padding-right: 145px;
+    padding-bottom:10px;
+    padding-left: 185px;
+    left: -70px;
+    position: relative;
+    top: 80px;
+    text-align: left;
+    padding-top: 10px;
+    mix-blend-mode: normal;
+    
+
+    
+    
+}
+
+.butto input{
+    padding: 10px;
+    border: 1px solid gray;
+    background-color: goldenrod;
+    border-radius: 5px;
+    font: comic sans ms;
+    color: black;
+    position: relative;
+    top: 42px;
+    left: 600px;
+    mix-blend-mode: normal;
+    font-weight: bold;
+    
+}
